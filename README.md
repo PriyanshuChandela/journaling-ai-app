@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# Journaling AI App 🧠✍️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, emotionally intelligent journaling application built with **React Native (Expo)**. This app uses AI to analyze your journal entries, detect your mood, and provide visual trend analytics over time.
 
-## Get started
+🔗 **Live Demo:** [https://PriyanshuChandela.github.io/journaling-ai-app](https://PriyanshuChandela.github.io/journaling-ai-app)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- **📝 Smart Journaling:** Clean, distraction-free writing interface.
+- **🤖 AI Emotion Analysis:** Instantly detects if you're Happy, Anxious, Calm, or Reflective.
+- **📊 Visual Trends:** Interactive charts to track your emotional journey over the week.
+- **🔐 Secure Authentication:** Login and Sign Up functionality with email validation.
+- **🎨 Dark Mode UI:** Premium "Cyberpunk" aesthetic with neon accents and glassmorphism.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Framework:** React Native (Expo SDK 52)
+- **Navigation:** React Navigation (Stack)
+- **Styling:** Custom StyleSheet with modern Design Tokens
+- **Charts:** `react-native-chart-kit`
+- **Deployment:** GitHub Pages (Web)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 How to Run Locally
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/PriyanshuChandela/journaling-ai-app.git
+    cd journaling-ai-app
+    ```
 
-## Get a fresh project
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-When you're ready, run:
+3.  **Start the server:**
+    ```bash
+    npx expo start --clear
+    ```
 
-```bash
-npm run reset-project
-```
+4.  **Run:**
+    - Press `w` to run in Browser.
+    - Scan QR code with Expo Go app for Mobile.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📸 Screenshots
 
-## Learn more
+*(You can add screenshots of your Login and Journal screens here)*
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Created by Priyanshu Chandela**
